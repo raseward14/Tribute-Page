@@ -7,10 +7,11 @@ body {
     line-height: 1.5;
     text-align: center;
 }
-h1, h2 {
+h2 {
     font-family: 'Piedra', cursive;
 }
 h1 {
+    font-family: 'Piedra', cursive;
     font-size: 4rem;
     margin-bottom: 0;
     margin-block-start: 0.67em;
@@ -68,7 +69,7 @@ li {
     margin: 16px 0;
 }
 
-@media (max-width 992px) {
+@media (max-width: 992px) {
     h1 {
         font-size: 3rem;
         line-height: 1.2;
